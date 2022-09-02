@@ -2,6 +2,7 @@ The focus of this project was a simple implementation of Sagas using MassTransit
 
 ![#](https://github.com/HenrySaldanha/AspNet.MassTransit.Sagas/blob/main/Images/api.png?raw=true)
 ![#](https://github.com/HenrySaldanha/AspNet.MassTransit.Sagas/blob/main/Images/Microsservices.png?raw=true)
+![#](https://github.com/HenrySaldanha/AspNet.MassTransit.Sagas/blob/main/Images/graphviz.png?raw=true)
 
 ## Run
 
@@ -9,6 +10,9 @@ The focus of this project was a simple implementation of Sagas using MassTransit
 * Run the projects **PurchaseSaga**,**PurchaseSaga**,**ProductWorker** and **Api**. 
 * Run the **/purchase** end point to start the saga
 * If you fill the **expirationDate** field with a value in the past, the saga will perform rollback during execution, if the value is in the future, the saga will end perfectly.
+
+* You can generate a .dot file with the saga diagram using the end point **/Saga/dot-file**
+
 
 ## Give a Star 
 If you found this Implementation helpful or used it in your Projects, do give it a star. Thanks!

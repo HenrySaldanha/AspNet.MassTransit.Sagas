@@ -9,6 +9,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\Dependencies\Dependencies.csproj" />
 		<ProjectReference Include="..\Domain\Domain.csproj" />
+		<ProjectReference Include="..\PurchaseSaga\PurchaseSaga.csproj" />
 	</ItemGroup>
 
 </Project>
